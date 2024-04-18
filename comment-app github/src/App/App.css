@@ -1,0 +1,220 @@
+.outPostBox {
+    height: 80vh;
+    width: 40vw;
+    margin: 2.5% 7.5%;
+    position: absolute;
+}
+
+.inPostBox {
+    margin: auto;
+    height: 100%;
+    width: 95%;
+    overflow: scroll;
+}
+
+.createBox {
+    height: 335px;
+    width: 40vw;
+    margin: 3.6% 52.5%;
+    position: absolute;
+    border-radius: 40px;
+    box-shadow: 5px 0px 10px 0px skyblue;
+    background: linear-gradient(to right, rgb(0, 0, 128, 0.7), rgb(105, 206, 236, 0.5));
+    color: white;
+}
+
+.postForm {
+    margin: auto;
+    height: 80vh;
+    width: 95%;
+    border: 1px solid black;
+}
+
+.dateInput {
+    padding-top: 20px;
+    margin: 0% auto;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: none;
+}
+
+.titleInput {
+    margin: 0% auto;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: none;
+}
+
+.titleBox {
+    width: 82%;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 5px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.commentInput {
+    margin: 0% auto;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: none;
+}
+
+.commentBox {
+    color: black;
+    height: 100px;
+    width: 97.5%;
+    padding: 8px;
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    white-space: normal;
+    overflow: scroll;
+    resize: none;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.submitInput {
+    margin: -1% auto;
+    height: 35px;
+    border: none;
+}
+
+.submitBox {
+    margin: 0% 43%;
+    height: 40px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submitBox:hover{
+    filter: brightness(95%);
+}
+
+
+.list{
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 19px auto;
+}
+
+.comment{
+    margin: auto auto 10px auto;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    box-shadow: -5px 0px 10px 0px skyblue;
+    background: linear-gradient(to left, rgb(0, 0, 128, 0.7), rgb(105, 206, 236, 0.5));
+    color: white;
+}
+
+.box{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.date {
+    margin: auto 10px;
+    text-align: left;
+    width: 20%;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 5px;
+}
+
+.commentTitle {
+    text-align: center;
+    margin: auto;
+    width: 55%;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 5px;
+}
+
+.commentText {
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding: 6px;
+    height: 75px;
+    width: 95%;
+    max-height: 100px;
+    word-wrap: break-word;
+    overflow: scroll;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pen {
+    margin-top: -52px;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+@media (max-width: 1230px){
+    .outPostBox {
+        height: 689px;
+        width: 480px;
+        margin: 60px 90px;
+    }
+    
+    .inPostBox {
+        margin: 2.5% auto;
+        height: 95%;
+        width: 95%;
+    }
+
+    .createBox {
+        height: 335px;
+        width: 480px;
+        margin: 90px 630px;
+    }
+
+    .titleBox {
+        width: 366.5px;
+        height: 30px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        padding-left: 5px;
+    }
+
+    .pen{
+        top: 100px;
+        min-width: 1000px;
+    }
+}
+
+@media (max-width: 800px){
+    .outPostBox {
+        height: 689px;
+        width: 720px;
+        margin: 70px 35px;
+    }
+
+    .createBox {
+        height: 335px;
+        width: 720px;
+        margin: 800px 35px;
+    }
+    
+    .titleBox {
+        width: 87%;
+    }
+
+    .pen{
+        min-width: 650px;
+        height: 650px;
+    }
+}
